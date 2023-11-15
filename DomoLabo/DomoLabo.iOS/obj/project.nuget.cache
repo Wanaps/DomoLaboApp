@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ILmifzoaMoH3cvxdMOXHG+iPRKOQ7lDPq8sU4RtmctfIqvY0iHtH+NoljsvklpUG6Q3kow4Kr5ysaOZzUR4Fwg==",
+  "success": true,
+  "projectFilePath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\test\\DomoLabo\\App\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\macel\\.nuget\\packages\\xamarin.forms\\4.8.0.1821\\xamarin.forms.4.8.0.1821.nupkg.sha512"
+  ],
+  "logs": []
+}
