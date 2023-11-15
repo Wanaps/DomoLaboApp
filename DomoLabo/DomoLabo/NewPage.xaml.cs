@@ -3,23 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace DomoLabo
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class NewPage : ContentPage
     {
-        public MainPage()
+        public NewPage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        private void TapGestureRecognizer_OnTapped(object sender, EventArgs e)
+        private void Button_OnClicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new NewPage());
+            Navigation.PopAsync();
         }
-
-
     }
 }

@@ -6,6 +6,8 @@
     xmlns:local="clr-namespace:DomoLabo"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
+
+    
     <StackLayout>
         <StackLayout Margin="40,80">
             <Label FontSize="18" TextColor="DarkGray">Welcome</Label>
@@ -45,6 +47,10 @@
                             Padding="10"
                             WidthRequest="138">
                             <Grid>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Tapped="TapGestureRecognizer_OnTapped"/>
+                                </Grid.GestureRecognizers>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="*" />
@@ -84,86 +90,10 @@
                             Padding="10"
                             WidthRequest="138">
                             <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <StackLayout Grid.Column="1" VerticalOptions="Center">
-                                    <Label
-                                        FontAttributes="Bold"
-                                        FontSize="12"
-                                        TextColor="White">
-                                        Name
-                                    </Label>
-                                    <Label
-                                        FontSize="8"
-                                        Margin="0,-4"
-                                        TextColor="White">
-                                        Contains
-                                    </Label>
-                                </StackLayout>
-                                <Grid Grid.Column="2" WidthRequest="6">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="6" />
-                                        <RowDefinition Height="*" />
-                                    </Grid.RowDefinitions>
-                                    <Frame
-                                        BackgroundColor="Red"
-                                        CornerRadius="5"
-                                        Grid.Row="0" />
-                                </Grid>
-                            </Grid>
-                        </Frame>
-                    </StackLayout>
-                    <StackLayout Orientation="Vertical">
-                        <Frame
-                            Background="#3B3D51"
-                            CornerRadius="10"
-                            HeightRequest="65"
-                            Margin="2"
-                            Padding="10"
-                            WidthRequest="138">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <StackLayout Grid.Column="1" VerticalOptions="Center">
-                                    <Label
-                                        FontAttributes="Bold"
-                                        FontSize="12"
-                                        TextColor="White">
-                                        Name
-                                    </Label>
-                                    <Label
-                                        FontSize="8"
-                                        Margin="0,-4"
-                                        TextColor="White">
-                                        Contains
-                                    </Label>
-                                </StackLayout>
-                                <Grid Grid.Column="2" WidthRequest="6">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="6" />
-                                        <RowDefinition Height="*" />
-                                    </Grid.RowDefinitions>
-                                    <Frame
-                                        BackgroundColor="Red"
-                                        CornerRadius="5"
-                                        Grid.Row="0" />
-                                </Grid>
-                            </Grid>
-                        </Frame>
-                        <Frame
-                            Background="#3B3D51"
-                            CornerRadius="10"
-                            HeightRequest="65"
-                            Margin="2"
-                            Padding="10"
-                            WidthRequest="138">
-                            <Grid>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Tapped="TapGestureRecognizer_OnTapped"/>
+                                </Grid.GestureRecognizers>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="*" />
@@ -205,6 +135,10 @@
                             Padding="10"
                             WidthRequest="138">
                             <Grid>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Tapped="TapGestureRecognizer_OnTapped"/>
+                                </Grid.GestureRecognizers>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="*" />
@@ -244,6 +178,98 @@
                             Padding="10"
                             WidthRequest="138">
                             <Grid>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Tapped="TapGestureRecognizer_OnTapped"/>
+                                </Grid.GestureRecognizers>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="12"
+                                        TextColor="White">
+                                        Name
+                                    </Label>
+                                    <Label
+                                        FontSize="8"
+                                        Margin="0,-4"
+                                        TextColor="White">
+                                        Contains
+                                    </Label>
+                                </StackLayout>
+                                <Grid Grid.Column="2" WidthRequest="6">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="6" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Frame
+                                        BackgroundColor="Red"
+                                        CornerRadius="5"
+                                        Grid.Row="0" />
+                                </Grid>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Frame
+                            Background="#3B3D51"
+                            CornerRadius="10"
+                            HeightRequest="65"
+                            Margin="2"
+                            Padding="10"
+                            WidthRequest="138">
+                            <Grid>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Tapped="TapGestureRecognizer_OnTapped"/>
+                                </Grid.GestureRecognizers>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="12"
+                                        TextColor="White">
+                                        Name
+                                    </Label>
+                                    <Label
+                                        FontSize="8"
+                                        Margin="0,-4"
+                                        TextColor="White">
+                                        Contains
+                                    </Label>
+                                </StackLayout>
+                                <Grid Grid.Column="2" WidthRequest="6">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="6" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Frame
+                                        BackgroundColor="Red"
+                                        CornerRadius="5"
+                                        Grid.Row="0" />
+                                </Grid>
+                            </Grid>
+                        </Frame>
+                        <Frame
+                            Background="#3B3D51"
+                            CornerRadius="10"
+                            HeightRequest="65"
+                            Margin="2"
+                            Padding="10"
+                            WidthRequest="138">
+                            <Grid>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Tapped="TapGestureRecognizer_OnTapped"/>
+                                </Grid.GestureRecognizers>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="*" />
@@ -298,6 +324,10 @@
                         Padding="10"
                         WidthRequest="138">
                         <Grid>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="TapGestureRecognizer_OnTapped"/>
+                            </Grid.GestureRecognizers>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*" />
                                 <RowDefinition Height="*" />
@@ -327,6 +357,10 @@
                         Padding="10"
                         WidthRequest="138">
                         <Grid>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="TapGestureRecognizer_OnTapped"/>
+                            </Grid.GestureRecognizers>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*" />
                                 <RowDefinition Height="*" />
@@ -356,6 +390,10 @@
                         Padding="10"
                         WidthRequest="138">
                         <Grid>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="TapGestureRecognizer_OnTapped"/>
+                            </Grid.GestureRecognizers>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*" />
                                 <RowDefinition Height="*" />
@@ -385,6 +423,10 @@
                         Padding="10"
                         WidthRequest="138">
                         <Grid>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="TapGestureRecognizer_OnTapped"/>
+                            </Grid.GestureRecognizers>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*" />
                                 <RowDefinition Height="*" />
