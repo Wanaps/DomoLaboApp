@@ -51,3 +51,4 @@ C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2
 C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.dll
 C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.pdb
 C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\NewPage.xaml.g.cs
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\StationPage.xaml.g.cs

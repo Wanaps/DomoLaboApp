@@ -21,5 +21,9 @@ namespace DomoLabo
         }
 
 
+        private void StationPage_OnTapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new StationPage());
+        }
     }
 }

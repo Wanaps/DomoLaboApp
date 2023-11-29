@@ -31,18 +31,30 @@
                 FontSize="25"
                 TextColor="DarkGray"
                 Margin="10, 0, 0, 0">
-                Status
+                Status : Offline
             </Label>
+            
             <Switch
                 IsToggled="False"
-                Margin="10, 0, 0, 0"
+                Margin="130, 150, 0, 0"
                 HorizontalOptions="Start"
                 VerticalOptions="Start"
                 WidthRequest="50"
                 HeightRequest="50"
                 ScaleX="2"
                 ScaleY="2"
+                ThumbColor="White"
+                OnColor="White"
                 />
+            <Label
+                FontSize="35"
+                TextColor="White"
+                Margin="-10, 0, 0, 0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                >
+                Text
+            </Label>
             <Grid>
                 
             </Grid>
