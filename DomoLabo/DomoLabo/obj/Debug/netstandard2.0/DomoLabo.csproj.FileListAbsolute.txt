@@ -11,3 +11,18 @@ C:\Mes Dossiers\Ynov Campus\Ydays\B2\Domolabo\DomoLaboApp\DomoLabo\DomoLabo\obj\
 C:\Mes Dossiers\Ynov Campus\Ydays\B2\Domolabo\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Mes Dossiers\Ynov Campus\Ydays\B2\Domolabo\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.dll
 C:\Mes Dossiers\Ynov Campus\Ydays\B2\Domolabo\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.pdb
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\bin\Debug\netstandard2.0\DomoLabo.deps.json
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\bin\Debug\netstandard2.0\DomoLabo.dll
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\bin\Debug\netstandard2.0\DomoLabo.pdb
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.csproj.AssemblyReference.cache
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.AssemblyInfoInputs.cache
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.AssemblyInfo.cs
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.csproj.CoreCompileInputs.cache
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.dll
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\DomoLabo.pdb
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\StationPage.xaml.g.cs
+C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\VentilationPage.xaml.g.cs

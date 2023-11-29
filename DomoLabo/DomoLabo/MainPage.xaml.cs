@@ -12,6 +12,18 @@ namespace DomoLabo
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        private void TapGestureRecognizer_OnTapped(object sender, EventArgs e)
+        {
+            Console.WriteLine("nique ta mere la pute de ta race de ta mere la pute");
+        }
+
+
+        private void StationPage_OnTapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new StationPage());
         }
     }
 }

@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj": {}
+    "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj": {
+    "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
         "projectName": "DomoLabo.iOS",
-        "projectPath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
-        "packagesPath": "C:\\Users\\macel\\.nuget\\packages\\",
-        "outputPath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\obj\\",
+        "projectPath": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
+        "packagesPath": "C:\\Users\\ecwan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\macel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ecwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj": {
-                "projectPath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj"
+              "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj": {
+                "projectPath": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj"
               }
             }
           }
@@ -60,17 +60,17 @@
         }
       }
     },
-    "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj": {
+    "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj",
+        "projectUniqueName": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj",
         "projectName": "DomoLabo",
-        "projectPath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj",
-        "packagesPath": "C:\\Users\\macel\\.nuget\\packages\\",
-        "outputPath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo\\obj\\",
+        "projectPath": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj",
+        "packagesPath": "C:\\Users\\ecwan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\macel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ecwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

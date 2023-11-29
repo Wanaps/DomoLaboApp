@@ -1002,20 +1002,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\macel\\.nuget\\packages\\": {}
+    "C:\\Users\\ecwan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
       "projectName": "DomoLabo.iOS",
-      "projectPath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
-      "packagesPath": "C:\\Users\\macel\\.nuget\\packages\\",
-      "outputPath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\obj\\",
+      "projectPath": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
+      "packagesPath": "C:\\Users\\ecwan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\macel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ecwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1028,8 +1028,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj": {
-              "projectPath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj"
+            "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj": {
+              "projectPath": "C:\\Users\\ecwan\\Desktop\\code\\DomoLaboApp\\DomoLabo\\DomoLabo\\DomoLabo.csproj"
             }
           }
         }
