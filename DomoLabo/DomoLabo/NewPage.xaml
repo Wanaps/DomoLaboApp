@@ -7,17 +7,30 @@
     <ContentPage.Content>
         
         <StackLayout Margin="40, 80">
-            <Button Clicked="Button_OnClicked" Text="Back"></Button>
+            <Button Clicked="Button_OnClicked" Text="Back"
+                    BackgroundColor="#252840"
+                    TextColor="White"
+                    BorderColor="White"
+                    BorderWidth="2"
+                    CornerRadius="10"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    Margin="0, 0, 0, 20"
+                    
+                    />
             <Label
                 FontAttributes="Bold"
                 FontSize="35"
-                Margin="0"
+                Margin="10, 0, 0, 0"
                 TextColor="White">
                 Device Name
             </Label>
             <Label
                 FontSize="25"
-                TextColor="DarkGray">
+                TextColor="DarkGray"
+                Margin="10, 0, 0, 0">
                 Status
             </Label>
             <Grid>
