@@ -6,7 +6,7 @@
     x:Class="DomoLabo.NewPage">
     <ContentPage.Content>
         
-        <StackLayout Margin="40, 80">
+        <StackLayout Margin="40, 80" Orientation="Vertical">
             <Button Clicked="Button_OnClicked" Text="Back"
                     BackgroundColor="#252840"
                     TextColor="White"
@@ -33,6 +33,16 @@
                 Margin="10, 0, 0, 0">
                 Status
             </Label>
+            <Switch
+                IsToggled="False"
+                Margin="10, 0, 0, 0"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                WidthRequest="50"
+                HeightRequest="50"
+                ScaleX="2"
+                ScaleY="2"
+                />
             <Grid>
                 
             </Grid>
