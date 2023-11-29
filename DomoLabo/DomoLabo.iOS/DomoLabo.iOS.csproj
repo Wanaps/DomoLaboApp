@@ -5,7 +5,7 @@
         <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
         <ProductVersion>8.0.30703</ProductVersion>
         <SchemaVersion>2.0</SchemaVersion>
-        <ProjectGuid>{454BBDA9-E0FC-4D83-B56D-B8F5A8AAB78A}</ProjectGuid>
+        <ProjectGuid>{80E7A8B6-084C-49B2-B7D3-CEAD64BE1C89}</ProjectGuid>
         <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
         <OutputType>Exe</OutputType>
         <RootNamespace>DomoLabo.iOS</RootNamespace>
@@ -106,11 +106,11 @@
         <Reference Include="Xamarin.iOS"/>
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821"/>
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012"/>
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\DomoLabo\DomoLabo.csproj">
-            <Project>{6B6F6749-EF0F-4D77-ACDB-81AD7CDF2604}</Project>
+            <Project>{9B147B07-0C15-443B-9B6B-0F8142582E14}</Project>
             <Name>DomoLabo</Name>
         </ProjectReference>
     </ItemGroup>
