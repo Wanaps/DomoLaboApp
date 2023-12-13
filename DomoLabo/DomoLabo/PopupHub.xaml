@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<xct:Popup
+    BackgroundColor="Transparent"
+    Size="320,500"
+    x:Class="DomoLabo.PopupHub"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    <Frame BackgroundColor="#252840" CornerRadius="10">
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label
+                FontAttributes="Bold"
+                FontSize="20"
+                Grid.Row="0"
+                HorizontalTextAlignment="Center"
+                TextColor="White">
+                No HUB connected
+            </Label>
+            <StackLayout Grid.Row="2">
+                <Button
+                    BackgroundColor="#7f03fc"
+                    CornerRadius="15"
+                    FontAttributes="Bold"
+                    Text="Connect HUB"
+                    TextColor="White"
+                    TextTransform="None" />
+                <Label
+                    FontSize="10"
+                    HorizontalTextAlignment="Center"
+                    Padding="5"
+                    TextColor="DarkGray"
+                    TextDecorations="Underline">
+                    Cancel Connection
+                </Label>
+            </StackLayout>
+        </Grid>
+    </Frame>
+
+</xct:Popup>

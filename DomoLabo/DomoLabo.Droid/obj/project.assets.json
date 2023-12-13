@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v10.0": {
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        }
+      },
       "Xamarin.AndroidX.Activity/1.1.0.5": {
         "type": "package",
         "dependencies": {
@@ -1047,6 +1066,28 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.ViewPager2.targets": {}
         }
       },
+      "Xamarin.CommunityToolkit/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "[5.0.0.1874, 5.0.0.2012]"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -1146,6 +1187,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.BLE": "2.1.3",
+          "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -1158,6 +1201,41 @@
     }
   },
   "libraries": {
+    "Plugin.BLE/2.1.3": {
+      "sha512": "qGLGPvZWnmEjFh0sKF25efN6f5kiCaNybAlSX02F/VpgbyI5kQDjHYuJLebQ+nqbdyAnwsvz/yTZR5ioRainIg==",
+      "type": "package",
+      "path": "plugin.ble/2.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon_small.png",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.deps.json",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.dll",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.pdb",
+        "lib/MonoAndroid/Plugin.BLE.XML",
+        "lib/MonoAndroid/Plugin.BLE.dll",
+        "lib/MonoAndroid/Plugin.BLE.pdb",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.deps.json",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.BLE.XML",
+        "lib/Xamarin.iOS10/Plugin.BLE.dll",
+        "lib/Xamarin.iOS10/Plugin.BLE.pdb",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.deps.json",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.dll",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.pdb",
+        "lib/netstandard2.0/Plugin.BLE.deps.json",
+        "lib/netstandard2.0/Plugin.BLE.dll",
+        "lib/netstandard2.0/Plugin.BLE.pdb",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.deps.json",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.dll",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.pdb",
+        "lib/xamarinmac20/Plugin.BLE.dll",
+        "lib/xamarinmac20/Plugin.BLE.macOS.xml",
+        "plugin.ble.2.1.3.nupkg.sha512",
+        "plugin.ble.nuspec"
+      ]
+    },
     "Xamarin.AndroidX.Activity/1.1.0.5": {
       "sha512": "HAHy6ibECkMBxrOmrOYjBSpHO7cDYIDEEQoUi797LlmzDLUa0/ywJRGBSf+THs10E9FcwdWbpwaWmgwWkgGJQA==",
       "type": "package",
@@ -1949,6 +2027,48 @@
         "xamarin.androidx.viewpager2.nuspec"
       ]
     },
+    "Xamarin.CommunityToolkit/1.2.0": {
+      "sha512": "N2f4a0MmdRTx2QyxtcEeoV0yVXNblIhs9H2NED0v+YNn42AaRnw1WN4sG+Okw8jOkc3iyMkrVtn6EjzE29EjmQ==",
+      "type": "package",
+      "path": "xamarin.communitytoolkit/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/PreserveXamarinCommunityToolkit.cs",
+        "build/Xamarin.CommunityToolkit.targets",
+        "icon.png",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.xml",
+        "lib/net471/Xamarin.CommunityToolkit.dll",
+        "lib/net471/Xamarin.CommunityToolkit.xml",
+        "lib/net472/Xamarin.CommunityToolkit.dll",
+        "lib/net472/Xamarin.CommunityToolkit.xml",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.dll",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.xml",
+        "lib/tizen40/Xamarin.CommunityToolkit.dll",
+        "lib/tizen40/Xamarin.CommunityToolkit.xml",
+        "lib/uap10.0.19041/Xamarin.CommunityToolkit.dll",
+        "lib/uap10.0.19041/Xamarin.CommunityToolkit.pri",
+        "lib/uap10.0.19041/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.xml",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.xml",
+        "xamarin.communitytoolkit.1.2.0.nupkg.sha512",
+        "xamarin.communitytoolkit.nuspec"
+      ]
+    },
     "Xamarin.Forms/5.0.0.2012": {
       "sha512": "Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
       "type": "package",
@@ -2209,6 +2329,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v10.0": [
       "DomoLabo >= 1.0.0",
+      "Plugin.BLE >= 2.1.3",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
   },
@@ -2249,6 +2370,10 @@
     "frameworks": {
       "monoandroid10.0": {
         "dependencies": {
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[2.1.3, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2012, )"

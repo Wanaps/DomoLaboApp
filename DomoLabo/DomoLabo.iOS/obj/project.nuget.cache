@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UhO/dKz4z58dOabptiIOB4ee69GhXnmGrXXbesA9oMKtORhlLHOZBQsV1vyTDdsqZ2e/baLVFZ87UJj0Ns1J+A==",
+  "dgSpecHash": "+EEAbXHVc0J3UEBnZh0N6Hg3lgQHrI8f6QP+ggx2tNPc8DeBpMs+OqxDsktOfUChlE5fPWt5tIMbpM15NHk3Vw==",
   "success": true,
   "projectFilePath": "C:\\Mes Dossiers\\Ynov Campus\\Ydays\\B2\\Domolabo\\DomoLaboApp\\DomoLabo\\DomoLabo.iOS\\DomoLabo.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\macel\\.nuget\\packages\\plugin.ble\\2.1.3\\plugin.ble.2.1.3.nupkg.sha512",
+    "C:\\Users\\macel\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
     "C:\\Users\\macel\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []

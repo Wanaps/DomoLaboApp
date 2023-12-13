@@ -28,3 +28,4 @@ C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2
 C:\Users\ecwan\Desktop\code\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\VentilationPage.xaml.g.cs
 C:\Mes Dossiers\Ynov Campus\Ydays\B2\Domolabo\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\StationPage.xaml.g.cs
 C:\Mes Dossiers\Ynov Campus\Ydays\B2\Domolabo\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\VentilationPage.xaml.g.cs
+C:\Mes Dossiers\Ynov Campus\Ydays\B2\Domolabo\DomoLaboApp\DomoLabo\DomoLabo\obj\Debug\netstandard2.0\PopupHub.xaml.g.cs

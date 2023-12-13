@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.CommunityToolkit.Extensions;
+using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Forms;
 
 namespace DomoLabo
@@ -13,11 +15,14 @@ namespace DomoLabo
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            
+            
+            
         }
 
         private void TapGestureRecognizer_OnTapped(object sender, EventArgs e)
         {
-            Console.WriteLine("nique ta mere la pute de ta race de ta mere la pute");
+            Navigation.ShowPopupAsync(new PopupHub());
         }
 
 
